@@ -1,0 +1,58 @@
+/* Tienda */
+
+.bodyTienda{
+    background-color: #e3d6ff;
+  }
+  
+  .submenu {
+    position: relative;
+  }
+  
+  .submenu #carrito{
+    display: none;
+  }
+  .submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+  }
+  tbody, td, tfoot, th, thead, tr {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  .card-body {
+    text-align: center;
+  }
+  .card {
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  .card-img-top {
+    border-radius: 1.8rem;
+    padding-top: .50rem;
+  }
+  .btn {
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    border-radius: 10rem;
+    text-transform: uppercase;
+    background-color: rgb(134, 70, 255);
+    border-color: rgb(134, 70, 255);
+  }
+  .btn:hover {
+    background-color: rgb(179, 147, 255);
+    border-color: rgb(179, 147, 255);
+  }
+  .btn:focus {
+    background-color: rgb(179, 147, 255);
+    border-color: rgb(179, 147, 255);
+  }
